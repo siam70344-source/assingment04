@@ -110,7 +110,7 @@ if (filteredJobs.length === 0) {
   `;
   return;
 }
-
+// render job cards
   filteredJobs.forEach(job => {
     container.innerHTML += `
       <div class="job-card">
