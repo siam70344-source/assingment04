@@ -178,6 +178,7 @@ function updateDashboard() {
   document.getElementById("rejected-count").innerText =
     jobs.filter(j => j.status === "Rejected").length;
 }
+// tab switching logic
 function switchTab(event, tab) {
   currentTab = tab;
 
