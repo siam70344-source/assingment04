@@ -146,7 +146,7 @@ function handleInterview(id) {
   } else {
     job.status = "Interview";
   }
-
+// update dashboard counts and re-render current tab
   updateDashboard();
   renderJobs(currentTab);
 }
