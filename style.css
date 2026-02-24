@@ -147,6 +147,7 @@ body {
   cursor: pointer;
   font-size: 16px;
 }
+/* for empty section */
 @media (max-width: 768px) {
   .dashboard {
     grid-template-columns: 1fr;
