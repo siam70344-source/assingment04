@@ -81,6 +81,7 @@ let jobs = [
     status: "All"
   }
 ];
+// details page data
 let currentTab = "All";
 
 function renderJobs(tab) {
