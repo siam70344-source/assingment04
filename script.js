@@ -97,7 +97,7 @@ function renderJobs(tab) {
 
   document.getElementById("section-count").innerText =
     filteredJobs.length + " jobs";
-
+//no jobs state
 if (filteredJobs.length === 0) {
   container.innerHTML = `
     <div class="empty-state">
