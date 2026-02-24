@@ -1,3 +1,4 @@
+// Mock job data
 let jobs = [
   {
     id: 1,
